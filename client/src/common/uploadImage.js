@@ -7,7 +7,6 @@ const uploadImage = async (e, setProgress, setFormDetails, formDetails) => {
   ) {
     const data = new FormData();
     data.append("file", e.target.files[0]);
-
     data.append("upload_preset", import.meta.env.VITE_CLOUDINARY_PRESET);
 
     const config = {
