@@ -124,17 +124,7 @@ const Avatar = () => {
                 Add new recipe
               </Link>
             </MenuItem>
-            <MenuItem>
-              <Link
-                to="/blog/add"
-                className="flex items-center"
-              >
-                <ListItemIcon>
-                  <Article fontSize="small" />
-                </ListItemIcon>
-                Add new blog
-              </Link>
-            </MenuItem>
+            
             <MenuItem>
               <Link
                 to="/recipe/my-recipes"
@@ -146,17 +136,7 @@ const Avatar = () => {
                 My recipes
               </Link>
             </MenuItem>
-            <MenuItem>
-              <Link
-                to="/blog/my-blogs"
-                className="flex items-center"
-              >
-                <ListItemIcon>
-                  <Description fontSize="small" />
-                </ListItemIcon>
-                My blogs
-              </Link>
-            </MenuItem>
+            
           </Box>
         )}
         <MenuItem>
