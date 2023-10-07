@@ -25,7 +25,7 @@ import ReactMarkdown from "react-markdown";
 import useAuth from "../../hooks/useAuth";
 
 const SingleBlog = () => {
-  useTitle("Recipen - Blog");
+  useTitle("Yumdish - Blog");
 
   const user = useAuth();
   const { id } = useParams();

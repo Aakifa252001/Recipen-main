@@ -90,18 +90,19 @@ const DashboardBlogs = () => {
   ];
 
   return (
-    <section className="mx-auto px-6 flex justify-center items-center h-[100vh]">
-      <div className="w-full h-[90%] flex justify-center items-center">
-        {isLoading ? (
-          <ComponentLoading />
-        ) : (
-          <Table
-            rows={updatedData}
-            cols={cols}
-          />
-        )}
-      </div>
-    </section>
+    // <section className="mx-auto px-6 flex justify-center items-center h-[100vh]">
+    //   <div className="w-full h-[90%] flex justify-center items-center">
+    //     {isLoading ? (
+    //       <ComponentLoading />
+    //     ) : (
+    //       <Table
+    //         rows={updatedData}
+    //         cols={cols}
+    //       />
+    //     )}
+    //   </div>
+    // </section>
+    <></>
   );
 };
 
